@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
+  
+        * {
+          margin: 0;
+        }
+  
+        body {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            background: #1F2460;
+        }
+
+        .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .wrapper img {
+            width: 100%;
+            display: block;
+        }
+
+        .middle {
+            background-image: url('/img/middle.png');
+            display: flex;
+            flex-direction: column;
+            background-repeat: no-repeat;
+            margin-top: -4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upper">
+            <img src="/img/upper.png"/>
+        </div>
+        <div class="middle">
+            <a href="#">
+                <img src="/img/free300yellow.png" />
+            </a>
+            <a href="#">
+                <img src="/img/CCServiceyellow.png"/>
+            </a>
+        </div>
+        <div>
+            <img src="/img/lower.png"/>
+        </div>
+    </div>
+</body>
+</html>
